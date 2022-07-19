@@ -1,0 +1,194 @@
+.footer {
+    text-align: center;
+    
+    color: #fff;
+    padding: 1px 3px 20px 5px;
+}
+
+body{
+    
+    background: black;  
+ }
+
+.ads{
+    padding-top: 5px;
+    
+}
+
+.category{
+    border-style: solid;
+    background-color: black;
+   
+}
+
+.ca1{
+   
+    color:#fff;
+}
+.but2 {
+    border-style: solid;
+    border-radius: 12px;
+    padding:5px;
+    border-color: #10358a;
+    text-decoration:none;
+    align-items: center;
+    background-color: white;
+   
+}
+.but2:hover{
+    background-color: rgb(75, 37, 179);
+    text-decoration: none;
+    color:aliceblue;
+}
+
+
+
+.products_container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+
+.products_container > div{
+    background-color: tomato;
+    height:350px;
+    width: 200px;
+    margin:10px;
+    /* border-style: solid 1px white; */
+}
+
+.prod__price{
+    color:rgb(255, 255, 255);
+    letter-spacing: 0.1px;
+    padding: 15px 0;
+    /* border-bottom: rgb(149, 141, 141) 1px solid; */
+       
+}
+.prod__title{
+    color:rgb(130, 125, 125);
+    font-size: 15px;
+    
+}
+.pg-1{
+    background-color:black;
+}
+.adc{
+    border-style: solid;
+        border-radius: 12px;
+        padding: 4px;
+        border-color: #10358a;
+}
+.adc:hover{
+    background-color: rgb(85, 43, 211);
+}
+
+
+
+.pickitem:hover{
+    height: 352px;
+    width: 202px;
+    
+    position: relative;
+    /* margin-left: -10px;
+    margin-top: -15px; */
+    border:2px solid blue ;
+    border-radius: 30px;
+    transition:0.1s;
+    transition-delay: 0;
+    
+}
+
+/* add to cart css */
+.inde{
+    width: 50px;
+    text-align: center;
+}
+
+.hideitems{
+    display: none;
+    background: red;
+}
+
+h3{
+    justify-content: center;
+
+}
+
+.contact{
+    display: flex;
+    margin-top: 30px;
+    
+    
+}
+.map{
+    width:60%;
+    
+}
+.contactinfo{
+    width: 40%;
+}
+
+.tmp-contact-icon{
+    color:#F15025;
+    
+}
+.tmp-icon-hover:hover{
+    /* color:#F15025; */
+    color: #F15025;
+    background:#ff6933;
+    box-shadow: 0 0 5px #F15025, 0 0 40px #F15025, 0 0 30px #F15025;
+    /* box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; */
+}
+.tmp-icon-hover-linkdin:hover{
+    /* color:#F15025; */
+    color: #0D6EFD;
+    background:#005ea0;
+    box-shadow: 0 0 10px #0D6EFD, 0 0 40px #0D6EFD, 0 0 50px #0D6EFD;
+    /* box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; */
+}
+
+.carouselcontrol{
+    height: 50%;
+  
+}
+
+
+.aboutus{
+    color:white;
+    background:blue;
+    opacity:0.7;
+    border-radius: 10px;
+
+}
+
+
+
+.dropdown-item:hover{
+    background-color: orange;
+    color:white;
+}
+#gg:hover{
+    background-color: orange;
+    color:white;
+}
+
+.list-group-item-action:hover{
+   background-color: orange;
+    color:white;
+}
+
+.dropdown-menu:hover{
+    background-color: grey;
+
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%666666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ 
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%666666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
